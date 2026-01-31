@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Future Art Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <div class="logo">ART<span>X</span></div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <h1>Future of Fine Art</h1>
+    <p>Where Imagination Meets Neon Reality</p>
+    <button id="exploreBtn">Enter Gallery</button>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery" class="gallery">
+    <h2>Digital Canvas</h2>
+
+    <div class="art-grid">
+      <div class="art-card">
+        <img src="images/art1.jpg">
+        <h3>Neon Dreams</h3>
+        <span>Oil on Canvas</span>
+      </div>
+
+      <div class="art-card">
+        <img src="images/art2.jpg">
+        <h3>Cosmic Silence</h3>
+        <span>Acrylic</span>
+      </div>
+
+      <div class="art-card">
+        <img src="images/art3.jpg">
+        <h3>Inner Pulse</h3>
+        <span>Mixed Media</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about">
+    <h2>Artist Identity</h2>
+    <p>
+      I am a 3rd year Fine Art student exploring futuristic expressions
+      through color, form, and emotion. My art blends classical painting
+      with modern digital aesthetics.
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2026 Future Art Portfolio</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
