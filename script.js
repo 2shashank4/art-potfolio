@@ -1,5 +1,4 @@
-document.getElementById("exploreBtn").addEventListener("click", () => {
-  document.getElementById("gallery").scrollIntoView({
-    behavior: "smooth"
-  });
+document.querySelector(".hero button").addEventListener("click", () => {
+  document.getElementById("gallery").scrollIntoView({ behavior: "smooth" });
 });
+
