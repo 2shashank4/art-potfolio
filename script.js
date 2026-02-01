@@ -1,4 +1,6 @@
-document.querySelector(".hero button").addEventListener("click", () => {
-  document.getElementById("gallery").scrollIntoView({ behavior: "smooth" });
-});
+const menuToggle = document.getElementById("menuToggle");
+const navLinks = document.getElementById("navLinks");
 
+menuToggle.addEventListener("click", () => {
+  navLinks.classList.toggle("active");
+});
